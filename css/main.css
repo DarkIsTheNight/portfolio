@@ -47,15 +47,15 @@ header div {
 }
 header div h1 {
     font-weight: 600;
-    font-size: 35px;
+    font-size: 40px;
 }
 header div p {
-    font-size: 22px;
+    font-size: 25px;
     display: flex;
 }
 header div h1 a {
     font-weight: lighter;
-    color: rgb(188, 192, 255);
+    color: rgb(25, 247, 255);
     position: absolute;
     left: 0;
     top: 50%;
@@ -109,7 +109,7 @@ header div p a{
     margin-top: 40px;
 }
 .best h3 {
-    font-size: 40px;
+    font-size: 45px;
     text-align: right;
     width: 1280px;
     margin: 20px auto;
