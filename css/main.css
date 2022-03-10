@@ -22,9 +22,12 @@ h4 {
     font-family: 'DungGeunMo';
     color: rgb(255, 230, 0);
     font-weight: lighter;
+    margin: 10px 0;
 }
+dt {color: rgb(25, 247, 255);}
+dd {color: rgb(255, 224, 187);}
 html, body {
-    color: #ccc;
+    color: #eee;
     min-width: 1280px;
     font-family: 'Pretendard-Regular';
     background: rgb(0, 0, 63)
@@ -52,7 +55,7 @@ header div p {
 }
 header div h1 a {
     font-weight: lighter;
-    color: rgb(25, 247, 255);
+    color: rgb(188, 192, 255);
     position: absolute;
     left: 0;
     top: 50%;
@@ -81,7 +84,7 @@ header div p a{
 }
 .main_visual div h2 {
     font-size: 95px;
-    color: rgba(22, 22, 22, 0.4);
+    color: rgba(5, 12, 99, 0.4);
 }
 .main_visual div p {
     width: 200px;
@@ -89,7 +92,7 @@ header div p a{
     margin-top: 150px;
     margin-left: auto;
     color: rgb(255, 255, 255);
-    background-color: rgba(86, 155, 115, 0.39);
+    background-color: rgba(79, 139, 0, 0.3);
     padding: 15px 160px 60px 15px;
 }
 /* 베스트 포트폴리오 */
@@ -99,6 +102,12 @@ header div p a{
 .best p {
     margin-bottom: 10px;
 }
+.produce {
+    color: rgb(214, 0, 214);
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 40px;
+}
 .best h3 {
     font-size: 40px;
     text-align: right;
@@ -106,11 +115,8 @@ header div p a{
     margin: 20px auto;
 }
 .best .bg {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.15);
     padding: 100px 0;
-}
-.best .bg .best_box {
-    margin-bottom: 0;
 }
 .best .best_box {
     width: 1280px;
@@ -123,14 +129,15 @@ header div p a{
     width: 40%;
 }
 .best .best_box .info .cate {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
+    color: rgb(255, 224, 187);
 }
 .best .best_box .info h4 {
     font-size: 30px;
 }
 .best .best_box .info .text {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 40px;
     line-height: 1.5;/* 현재 font-size*1.5(기본폰트 16pt) */
 }
@@ -149,17 +156,20 @@ header div p a{
 .best .best_box .info ul li {
     height: 45px;
     line-height: 45px;
-    border: 1px solid #333;
+    border: 2px dotted rgb(25, 247, 255);
     margin-right: 10px;
 }
 .best .best_box .info ul li a {
     padding: 0 25px;
+    color: rgb(255, 0, 255);
 }
 .best .best_box .info ul li:first-of-type {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px dotted rgb(0, 0, 63);
 }
-.best .best_box .info ul li:first-of-type a{
-    color: purple;
+.best .best_box .info ul li:first-of-type a {
+    color: rgb(224, 0, 224);
+    font-weight: bold;
 }
 .best .best_box .youtube_list {
     width: 55%;
@@ -190,22 +200,30 @@ header div p a{
 .youtube_wrap .youtube_menu {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .youtube_wrap .youtube_menu li {
     height: 45px;
     line-height: 45px;
     padding: 0 30px;
-    border: 1px solid #ccc;
+    border: 2px dotted rgb(25, 247, 255);
+    margin-right: 10px;
     box-sizing: border-box;
     margin: 0 5px;
 }
-.youtube_wrap .youtube_menu li.on {
-    background-color: #333;
-    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+.youtube_wrap .youtube_menu li a{
+    color: rgb(225, 0, 225);
+    font-weight: bold;
 }
-.youtube_wrap .youtube_menu li.on a {
-    color: #fff;
+.youtube_wrap .youtube_menu li.on {
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px dotted rgb(0, 0, 63);
+    color: rgb(224, 0, 224);
+    font-weight: bold;
+}
+.youtube_wrap .youtube_menu li a.on{
+    color: rgb(224, 0, 224);
+    font-weight: bold;
 }
 .youtube_wrap .youtube_cont .menu_cont {
     width: 1280px;
@@ -220,9 +238,10 @@ header div p a{
 }
 .youtube_wrap .menu_cont .box {
     width: 49%;
-    border: 1px solid #ccc;
+    border: 2px solid rgb(25, 247, 255);
     box-sizing: border-box;
     margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.08);
 }
 .youtube_list {
     width: 100%;
@@ -245,6 +264,10 @@ header div p a{
 .info p {
     margin-bottom: 8px;
 }
+.box .info p {
+    color: rgb(255, 224, 187);
+    font-size: 17px;
+}
 .info h4 {
     font-size: 30px;
     margin-bottom: 20px;
@@ -259,6 +282,7 @@ header div p a{
 }
 .info dl dd a {
     font-weight: bold;
+    color:rgb(25, 247, 255);
 }
 .info dl dd a:hover {
     text-decoration: underline;
@@ -273,47 +297,47 @@ h3 {
 }
 .g_design {
     background: url('../images/pic6.jpg') center center / cover no-repeat;
-    padding: 150px 0;
 }
 .g_design h3{
-    width: 220px;
-    padding: 8px;
+    width: 100%;
+    padding: 140px 0;
     color: rgb(25, 247, 255);
-    background-color: rgb(0, 3, 135);
-    margin: 0 auto;
     text-align: center;
+}
+.g_design .img_list {
+    width: 1280px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .g_design em {
     width: 1280px;
     margin: 0 auto;
     display: block;
     text-align: right;
-}
-.g_design .img_list {
-    width: 1280px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    color: rgb(255, 230, 0);
 }
 .g_design .img_list div {
     width: 24%;
+    margin-bottom: 80px;
+    border: 3px dashed rgb(28, 255, 168);
 }
 .g_design .img_list div figure {
     width: 100%;
-    height: 350px;
+    height: 300px;
     overflow: hidden;
 }
 .g_design .img_list div figure img {
-    transition: 0.4s;
+    transition: 0.3s;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 .g_design .img_list div ul {
-    background-color: rgb(173, 209, 255);
+    background-color: rgba(255, 208, 0, 0.9);
     padding: 20px;
-    color: rgb(32, 22, 70);
+    color: rgb(66, 5, 5);
 }
 .g_design .img_list div ul li:nth-of-type(1) {
     font-size: 20px;
@@ -321,8 +345,8 @@ h3 {
     margin-bottom: 7px;
 }
 .g_design .img_list div ul:hover {
-    background-color: rgb(45, 161, 255);
-    color: #eee;
+    background-color: rgb(37, 168, 255);
+    color: rgb(0, 0, 63);
 }
 .g_design .img_list div:hover figure img {
     transform: scale(1.2);
@@ -332,12 +356,11 @@ h3 {
 footer {
     height: 200px;
     background-color: rgb(0, 8, 36);
-    color: #fff;
     padding: 50px 0;
     text-align: center;
 }
 footer a {
-    color: #fff;
+    color: magenta;
 }
 footer ul {
     width: 1280px;
@@ -348,19 +371,23 @@ footer ul {
 footer ul li {
     width: 200px;
     line-height: 50px;
-    border: 1px solid #fff;
+    border: 3px dashed rgba(255, 255, 0, 0.466);
     margin: 0 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: rgb(255, 255, 38);
 }
 footer ul li:nth-of-type(1) {
-    background-color: #fff;
+    background-color: rgb(209, 0, 0);
+    border-style: none;
+    padding-top: 3px;
 }
 footer ul li:nth-of-type(1) a {
-    color: #333;
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 footer p {
     font-size: 14px;
-    color:rgba(255, 255, 255, 0.5);
+    color:rgba(253, 255, 153, 0.5);
     margin-top: 20px;
 }
 
@@ -404,29 +431,32 @@ footer p {
 }
 .info ul {display: flex; margin-top: 30px;}
 .info ul li:first-of-type {
-    /* background-color: #333; */
-    background: rgb(254,131,53);
-    background: linear-gradient(90deg, rgba(254,131,53,1) 0%, rgba(241,31,16,1) 100%);
-    border: 1px solid rgb(254,131,53);
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px dotted rgb(0, 0, 63);
 }
 
 .info ul li {
     height: 45px;
     line-height: 45px;
-    border: 1px solid #333;
+    border: 2px dotted rgb(25, 247, 255);
     margin-right: 10px;
     box-sizing: border-box;
 }
 .info ul li a {
-    padding: 0 20px;
+    padding: 0 25px;
+    color: rgb(255, 0, 255);
 }
 .info ul li:first-of-type a {
-    color: #fff;
+    color: rgb(224, 0, 224);
+    font-weight: bold;
 }
 
 /* 개인정보 .about */
 .about {
     margin: 150px 0;
+}
+.about_info p a {
+    color: rgb(255, 0, 255);
 }
 .about .about_box {
     width: 1280px;
@@ -466,6 +496,9 @@ footer p {
 }
 .about dl {
     font-size: 20px;
+}
+.about dl dd {
+    color: #eee;
 }
 .about dl dt {
     margin-bottom: 5px;
